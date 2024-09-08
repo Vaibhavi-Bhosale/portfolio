@@ -1,30 +1,48 @@
 .f1{
     font-size: 30px;
-     
+    background-color: #222831;
 }
 .f2{
+    font-size: 20px;
+    background-color: #222831;
+    display: inline-block;
+}
+.f2b{
    font-size: 20px;
+   background-color: #222831;
+   font-weight:800;
+   display: inline-block;
 }
 .f3{
-   font-size: 15px
+   font-size: 15px;
+   background-color: #222831;
 }
 
 .card{
-    border:solid 0.2px white;
+    border:solid 0.1px rgba(255, 255, 255, 0.554);
+    background-color: #222831;
+    border-radius: 12px;
     padding: 10px;
 
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 
 .btn{
     color: white;
-    border: white solid 0.5px;
+    border:solid 0.1px #222831; 
     padding: 11px 20px;
     border-radius: 6px;
     font-weight: 800;
+    /* rgba(255, 255, 255, 0.554) */
 }
 .btn:hover{
     cursor: pointer;
+    background-color: #222831;
+}
+
+.btn:hover a {
+    background-color: #222831; /* Change this to the color you want on hover */
 }
